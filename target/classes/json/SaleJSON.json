@@ -1,0 +1,29 @@
+{
+  "number_id": {
+    "id": 2,
+    "number": 1231
+  },
+  "warehouse_id": {
+    "id": 1,
+    "warehouse_name": "Склад1"
+  },
+  "list_of_product_id": {
+    "id": 1,
+    "product_id": {
+      "id": 1,
+      "vendor_code": "s20",
+      "product_name": "samsung galaxy s20",
+      "last_purchase_price": 700,
+      "last_sale_price": 1100
+    },
+    "quantity": 50,
+    "purchase_price_id": {
+      "id": 1,
+      "price": 300
+    },
+    "selling_price_id": {
+      "id": 1,
+      "price": 700
+    }
+  }
+}
