@@ -8,16 +8,19 @@
 		<version>2.2.6.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.warehouse</groupId>
-	<artifactId>stock-inventory</artifactId>
-	<version>2.1</version>
-	<name>stock-inventory</name>
-	<description>Порт на Spring Boot</description>
+
+	<groupId>ru.seoweblab</groupId>
+	<artifactId>warehouse</artifactId>
+	<version>2.2</version>
+	<name>warehouse</name>
+	<description>Rename</description>
 
 	<packaging>war</packaging>
 
 	<properties>
 		<java.version>1.8</java.version>
+		<!-- The main class to start by executing java -jar -->
+		<start-class>ru.seoweblab.warehouse.StockInventoryApplication</start-class>
 	</properties>
 
 	<dependencies>
@@ -80,6 +83,13 @@
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
+		</dependency>
+
+		<!-- marked the embedded servlet container as provided -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-tomcat</artifactId>
+			<scope>provided</scope>
 		</dependency>
 	</dependencies>
 

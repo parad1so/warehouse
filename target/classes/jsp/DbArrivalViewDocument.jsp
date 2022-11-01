@@ -9,8 +9,8 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <%@ page import="java.util.ArrayList" %>
-<%@ page import="com.warehouse.model.ArrivalOfProduct" %>
-<%@ page import="com.warehouse.view.jdbcView.ArrivalProductViewImpl" %>
+<%@ page import="ru.seoweblab.model.ArrivalOfProduct" %>
+<%@ page import="ru.seoweblab.view.jdbcView.ArrivalProductViewImpl" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>

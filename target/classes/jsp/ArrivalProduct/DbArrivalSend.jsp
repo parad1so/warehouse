@@ -7,7 +7,7 @@
 --%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page import="java.util.ArrayList" %>
-<%@ page import="com.warehouse.model.ArrivalOfProduct" %>
+<%@ page import="ru.seoweblab.model.ArrivalOfProduct" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
