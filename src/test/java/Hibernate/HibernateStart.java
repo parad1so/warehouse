@@ -1,13 +1,5 @@
 package Hibernate;
 
-import com.warehouse.dao.domain.HibernateDaoImpl.service.ArrivalProductService;
-import com.warehouse.hibernate.HibernateUtil;
-import com.warehouse.model.*;
-import org.hibernate.Session;
-import org.hibernate.SessionFactory;
-
-import java.util.Date;
-
 public class HibernateStart {
     public static void main(String[] args) {
 

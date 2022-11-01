@@ -1,7 +1,7 @@
 # Read Me First
 The following was discovered as part of building this project:
 
-* The original package name 'com.warehouse.stock-inventory' is invalid and this project uses 'com.warehouse.stockinventory' instead.
+* The original package name 'com.warehouse.stock-inventory' is invalid and this project uses 'com.warehouse.warehouse' instead.
 
 # Getting Started
 

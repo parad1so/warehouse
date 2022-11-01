@@ -1,9 +1,7 @@
 package User;
 
-import com.warehouse.dao.domain.JdbcDaoImpl.UserCrudDaoImpl;
-import com.warehouse.model.UserAccount;
-import com.warehouse.service.crypt.CryptPasswordImpl;
-import com.warehouse.dao.domain.documentsDaoJdbc.UserAccountDao;
+/*import ru.seoweblab.model.UserAccount;
+import ru.seoweblab.service.crypt.CryptPasswordImpl;
 
 
 public class AddUser {
@@ -17,3 +15,4 @@ public class AddUser {
     }
 
 }
+*/
