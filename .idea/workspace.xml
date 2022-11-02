@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56d20f19-f8d8-4e0e-9050-f8c5eeb1c624" name="Default Changelist" comment="" />
+    <list default="true" id="14e22f33-e29e-4927-aa17-89052a2a5703" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CoverageViewManager">
-    <option name="myElementSize" value="187" />
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
-  <component name="ProjectId" id="2GrMdCid9XbRFai2Oj5uGUbqnJy" />
+  <component name="ProjectId" id="2GzEiNQ3ZAwpYYZoXYmYYOXCVe6" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -21,10 +25,10 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -38,83 +42,31 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.StockInventoryApplication">
-    <configuration name="HibernateStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Hibernate.HibernateStart" />
-      <module name="warehouse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Hibernate.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="StockInventoryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="warehouse" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.warehouse.warehouse.StockInventoryApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StockInventoryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
-      <module name="warehouse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.seoweblab.warehouse.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="ru.seoweblab.warehouse.StockInventoryApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.HibernateStart" />
-      <item itemvalue="Spring Boot.StockInventoryApplication" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Spring Boot.StockInventoryApplication" />
-        <item itemvalue="Application.HibernateStart" />
-      </list>
-    </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="allServicesViewState">
-      <serviceView>
-        <treeState>
-          <expand />
-          <select />
-        </treeState>
-      </serviceView>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="56d20f19-f8d8-4e0e-9050-f8c5eeb1c624" name="Default Changelist" comment="" />
-      <created>1667142335337</created>
+      <changelist id="14e22f33-e29e-4927-aa17-89052a2a5703" name="Default Changelist" comment="" />
+      <created>1667383138245</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1667142335337</updated>
-      <workItem from="1667142340701" duration="10613000" />
-      <workItem from="1667303079937" duration="262000" />
-      <workItem from="1667303374225" duration="2794000" />
+      <updated>1667383138245</updated>
+      <workItem from="1667383140902" duration="1440000" />
+      <workItem from="1667386071932" duration="1240000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/stock_inventory$StockInventoryApplication.ic" NAME="StockInventoryApplication Coverage Results" MODIFIED="1667253312943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

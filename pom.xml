@@ -13,7 +13,7 @@
 	<artifactId>warehouse</artifactId>
 	<version>2.2</version>
 	<name>warehouse</name>
-	<description>Rename</description>
+	<description>App</description>
 
 	<packaging>war</packaging>
 
@@ -21,6 +21,12 @@
 		<java.version>1.8</java.version>
 		<!-- The main class to start by executing java -jar -->
 		<start-class>ru.seoweblab.warehouse.StockInventoryApplication</start-class>
+
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>8</maven.compiler.source>
+		<maven.compiler.target>8</maven.compiler.target>
+		<maven.compiler.release>8</maven.compiler.release>
+
 	</properties>
 
 	<dependencies>
@@ -58,6 +64,7 @@
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
+			<version>1.18.20</version>
 			<optional>true</optional>
 		</dependency>
 		<dependency>
@@ -91,6 +98,14 @@
 			<artifactId>spring-boot-starter-tomcat</artifactId>
 			<scope>provided</scope>
 		</dependency>
+
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jstl</artifactId>
+			<version>1.2</version>
+		</dependency>
+
+
 	</dependencies>
 
 	<build>
@@ -104,7 +119,5 @@
 			</plugin>
 		</plugins>
 	</build>
-
-
 
 </project>
